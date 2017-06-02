@@ -1,7 +1,9 @@
-# Bitmaker Mystery 
+# Bitmaker Mystery
 In today's assignment, we're going to take a step away from code for a bit, and instead do a Choose Your Own Adventure. In case you've never had the pleasure of reading a Choose Your Own Adventure story, the idea is pretty simple. At key points within the story, you'll be presented with a choice, and your choices will effect the outcome of the story.
 
 There's a twist to the usual formula though. Rather than simply making our choices and living with the outcome, we're going to cheat a little. Sometimes in a Choose Your Own Adventure story, one of your choices will lead you to an undesirable result. So instead of accepting whatever outcome we arrive at, we'll use the power of git branches and merges to jump between all the possible choices we could make, see where they lead, and make a final choice once we're satisfied with the outcome.
+
+You're free to work on this on your own, but you might find it beneficial to work in small teams. That way, you can explore several choices at the same time.
 
 ## Key Concepts
 To succeed in this assignment, you'll need to understand what a **git branch** and a **git merge** are.
@@ -20,5 +22,7 @@ Progressing through the story and making choices will look something like this:
 1. The choice you chose will have a link. Click on it, and read the next part of the story.
 1. Once you're satisfied with the choice or choices you've made, merge your branch back into *master*. You may choose to do this after one choice, or after several. This is for you to decide, but remember, you're **not allowed to simply delete choices from `CHOICES.txt`**. So if you go several choices in, and then decide you want to go back, you'll have to go back to where you branched off of, so merging frequently is probably not a bad idea.
 1. Make a new branch, and go back to **Step 2** until you reach an ending you like.
+
+One more thing. If at any point, you feel like you explored all the choices you could, and its impossible to proceed, click on [this link](story/6a.md) to get a hint. Try to hold off for as long as possible, or you'll spoil the story!
 
 Alright, [let's jump into the story!](story/intro.md)
