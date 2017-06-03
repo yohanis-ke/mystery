@@ -23,6 +23,6 @@ Progressing through the story and making choices will look something like this:
 1. Once you're satisfied with the choice or choices you've made, merge your branch back into *master*. You may choose to do this after one choice, or after several. This is for you to decide, but remember, you're **not allowed to simply delete choices from `CHOICES.txt`**. So if you go several choices in, and then decide you want to go back, you'll have to go back to where you branched off of, so merging frequently is probably not a bad idea.
 1. Make a new branch, and go back to **Step 2** until you reach an ending you like.
 
-One more thing. If at any point, you feel like you explored all the choices you could, and its impossible to proceed, click on [this link](story/6a.md) to get a hint. Try to hold off for as long as possible, or you'll spoil the story!
+One more thing. If at any point, you feel like you explored all the choices you could, and it's impossible to proceed, click on [this link](story/6a.md) to get a hint. Try to hold off for as long as possible or you'll spoil the story!
 
 Alright, [let's jump into the story!](story/intro.md)
