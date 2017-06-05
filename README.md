@@ -13,15 +13,15 @@ Branches allow us to break off from our *master* branch, where all our final dec
 Once we're happy with the state of our branch, and we feel like its safe to make our decisions final, we'll merge the branch back into *master*. The *master* branch should be considered our final source of truth, so we should try to make sure that we're happy with our decisions before we merge into it.
 
 ## Making Choices
-The story will be presented as a few paragraphs of text, followed by a multiple choice. Each choice will lead you to the next part of the story, which will either present you with another choice, or an ending. We'll record all of our choices in a file as we go, `CHOICES.txt`. The trick is that **we won't ever delete anything from this file** if we don't like a choice we've made, instead we'll use the power of branches to rewind time.
+The story will be presented as a few paragraphs of text, followed by a multiple choice. Each choice will be presented as a simple link. Each choice will lead you to the next part of the story, which will either present you with another set of choices, or an ending. You'll record all of our choices in a file as we go, `CHOICES.txt`. The trick is that **we won't ever delete anything from this file** if we don't like a choice we've made, instead we'll use the power of branches to rewind time.
 
 Progressing through the story and making choices will look something like this:
 1. First, make a **branch** in git. This way if you end up not liking the choice you made, you can simply switch back to *master*.
-1. Next, read through the story up to that point, and decide what choice you want to make.
+1. Next, read through the story up to that point, and decide what choice you want to make. Don't click on the link just yet, just decide what choice you're going to make.
 1. Record your choice in the `CHOICES.txt` file. Simply record the option you chose at whatever part of the story you're at. Make a **git commit** representing the choice.
-1. The choice you chose will have a link. Click on it, and read the next part of the story.
-1. Once you're satisfied with the choice or choices you've made, merge your branch back into *master*. You may choose to do this after one choice, or after several.
-1. Make a new branch, and go back to **Step 2** until you reach an ending you like.
+1. Back over in the story text on Github, the choice you chose will have a link. Click on it, and read the next part of the story.
+1. If the choice you made **didn't lead to a bad ending**, go back to *master* and merge your branch into *master*. Make sure you reread and you're happy with the choice before merging. Once you've merged, make a new branch, and go back to **Step 2** until you reach an ending you like.
+1. If the choice you made **did lead to a bad ending**, go back to master, and **without merging your old branch** make a new branch off of *master*, and go back to **Step 2** until you reach an ending you like. Also, don't delete any of your old branches for now.
 
 One more thing. If at any point, you feel like you explored all the choices you could, and it's impossible to proceed, click on [this link](story/6a.md) to get a hint. Try to hold off for as long as possible or you'll spoil the story!
 
