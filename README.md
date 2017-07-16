@@ -11,10 +11,6 @@ Today we'll be doing a *Choose Your Own Adventure* story with a twist.
 ## Getting Started
 It's recommended that you **work solo** on this assignment. Working in teams will make the process more complicated and confusing, and therefore you should try this on your own.
 
-Everything you need for this assignment is over in [this repo on GitHub](https://github.com/bitmakerlabs/mystery). Just fork the repo and clone it to your computer.
-
-## The Assignment
-
 In today's assignment, we're going to **take a step away from code** for a bit, and instead do a Choose Your Own Adventure. In case you've never had the pleasure of reading a Choose Your Own Adventure story, the idea is pretty simple. At key points within the story, you'll be presented with a choice, and your choices will effect the outcome of the story.
 
 There's a twist to the usual formula though. Rather than simply making our choices and living with the outcome, we're going to cheat a little. Sometimes in a Choose Your Own Adventure story, one of your choices will lead you to an undesirable result. So instead of accepting whatever outcome we arrive at, we'll use the power of git branches and merges to jump between all the possible choices we could make, see where they lead, and make a final choice once we're satisfied with the outcome.
