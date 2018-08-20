@@ -1,7 +1,7 @@
 CHOICES
 
 First Choice: https://github.com/bitmakerlabs/mystery/blob/master/story/1a.md
-Second Choice: ____
+Second Choice:https://github.com/bitmakerlabs/mystery/blob/master/story/2a.md
 Third Choice: ____
 Fourth Choice: ____
 Fifth Choice: ____
